@@ -8,6 +8,6 @@ Simulation d'entités se déplaçant en nuée (points blancs) et fuyant les traq
 
 ## Comportements
 
-- **Entité :** se déplace en nuée en se raprochant ou s'éloignant les unes des autres et en allant dans la même direction qu'eux (cohésion, séparation et alignement). Quand l'entité se trouve proche d'un ou plusieurs traqueur(s), il le(s) fuit.
+- **Entité :** se raproche ou s'éloigne des entités proches pour se placer à bonne distance et faisant en sorte d'aller dans la même direction qu'elles (cohésion, séparation et alignement). Quand l'entité se trouve proche d'un ou plusieurs traqueur(s), il le(s) fuit.
 
 - **Traqueur :** se dirige vers l'entité la plus proche et quand il se trouve proche d'un traqueur, il s'en éloigne (séparation).
